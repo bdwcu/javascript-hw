@@ -2,6 +2,7 @@ $(document).ready(function(){
 
   console.log("ready?");
   // Question 1: Add a class "active" to the element with "Cats" using the elements class name
+<<<<<<< HEAD
   // Write your solution here
   $('.Cats').addClass("active");
 
@@ -27,6 +28,17 @@ $(document).ready(function(){
      function() {
         $(this).animate({"font-size": "16px"}, "fast");
    });
+=======
+
+
+
+  // Question 2: Add a class "active" to the element with "Walrus" using the elements ID name
+
+
+
+  // Question 3: Add a class "active" to the element with "Camel" using jquery's eq() method
+
+>>>>>>> parent of dd9fc36... adding comment
 
 
   $(".list-group-item").mouseover(
