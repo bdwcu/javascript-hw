@@ -31,12 +31,12 @@ $(document).ready(function(){
 
   $(".list-group-item").mouseover(
    function() {
-      $(this).animate({"marginTop": "76px"}, "700");
+      $(this).animate({"marginTop": "76px"}, "900");
   });    
  
    $(".list-group-item").mouseleave(
    function() {
-      $(this).animate({"marginTop": "0px"}, "700");
+      $(this).animate({"marginTop": "0px"}, "900");
    });
 
 
