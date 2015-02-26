@@ -26,7 +26,7 @@ $(document).ready(function(){
   // Write your solution here
 
    $('.item').click(function(){
-      $('.item').addClass('flip').animate({opacity: .5});
+      $(this).addClass('flip').animate({opacity: .5});
     });
 
 
