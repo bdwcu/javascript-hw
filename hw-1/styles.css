@@ -1,7 +1,6 @@
 // Custom CSS
 // BDW - You will not need to change anything in here
 
-
 .animals.active {
     -webkit-animation-name: blink;
     -webkit-animation-duration:10s;
