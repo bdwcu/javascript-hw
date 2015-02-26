@@ -21,7 +21,7 @@ $(document).ready(function(){
   // Write your solution here
 
   $('.item').click(function(event){
-    $(this).addClass('flip');
+    $(this).toggleClass('flip');
 
   });
 
@@ -30,18 +30,28 @@ $(document).ready(function(){
 
 
 $('.list-group-item').hover(function() {
-    $(this).animate({"color":"red","font-size":"24px", "marginTop": "24px"});
+    $(this).animate({"color":"purple","font-size":"24px"});
   },
     function() {
-    $(this).animate({"color": "white","font-size" : "12px", "marginTop": "0px"});
+    $(this).animate({"color": "white","font-size" : "12px"});
 
     });
-
 
 
 $('.Cats').click(function() {
     if ($(this).text() === 'Cats') {
          $(this).text('MEEEEEOWWWW');
+    }
+    else {
+        $(this).text('Cats');
+    }
+
+
+});
+
+$('.Donkeys').click(function() {
+    if ($(this).text() === 'Cats') {
+         $(this).text('assssssss');
     }
     else {
         $(this).text('Cats');
