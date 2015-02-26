@@ -27,10 +27,12 @@ $(document).ready(function(){
   // Write your solution here
 
   $('.flipper').click(function(event){
-  $('.front').animate({
-      opacity: .5,
-      height: 150
-    }, 505, function(){});
+  $('.front').animate({fontSize: '3em'}, "slow");
 
   });
 });
+
+ 
+
+
+
