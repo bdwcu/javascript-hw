@@ -17,7 +17,8 @@ $(document).ready(function(){
   
   // Question 4: On a "click" event to the html element ".item", add class "flip".
   // Write your solution here
-    $(".item").click(function(event){
+    $(".item").click(function(){
+      // "this"-the item you clicked on 
       $(this).addClass("flip");
 
   });
