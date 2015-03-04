@@ -28,7 +28,6 @@ $(document).ready(function(){
   // Question 5 (Bonus): Use jquery's animate() method to do something.
   // Write your solution here
 
-
 $('.list-group-item').hover(function() {
     $(this).animate({"color":"purple","font-size":"24px"});
   },
