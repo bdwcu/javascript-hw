@@ -10,7 +10,9 @@
     -moz-animation-duration:1s;
     -moz-animation-iteration-count:infinite;
     -moz-animation-timing-function:ease-in-out;
+    /*background-color: #ccc;*/
 }
+
 
 @-webkit-keyframes scalex{
     from {-webkit-transform: scale(0.9);}
